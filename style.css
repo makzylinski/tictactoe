@@ -1,0 +1,131 @@
+body
+{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+header
+{
+text-align: center;
+font-weight: 700;
+font-size: 70px;
+letter-spacing: 3px;
+margin: 50px 0 50px 0;
+text-transform: uppercase;
+}
+
+section
+{
+font-size: 40px;
+text-align: center;
+}
+
+ul > li
+{
+    list-style-type: none;
+    margin: 20px 0 20px 0;
+}
+
+a
+{
+    color:#fff;
+	text-decoration: none;
+}
+
+a:hover
+{
+    color: #0a2b42;
+}
+
+#container
+{
+    margin-left: auto;
+    margin-right: auto;
+    height: 612px;
+    width: 612px;
+}
+
+.gameplay
+{
+    float: left;
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    background-color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+#topbar
+{
+    min-height: 70px;
+    line-height: 70px;
+    min-width: 500px;
+    background-color: #2e3135;
+    border: 2px solid gray;
+    margin: 10px;
+    text-align: center;
+}
+
+#turnCounter
+{
+    text-align: center;
+}
+
+.replay
+{
+    letter-spacing: 2px;
+    color:red;
+}
+
+.replay:hover
+{
+    cursor: pointer;
+    color: green;
+}
+
+#d0
+{
+    border-top: none;
+    border-left: none;
+}
+
+#d1
+{
+    border-top: none;
+}
+
+#d2
+{
+    border-top: none;
+    border-right: none;
+}
+
+#d3
+{
+    border-left: none;
+}
+
+#d5
+{
+    border-right: none;
+}
+
+#d6
+{
+    border-left: none;
+    border-bottom: none;
+}
+
+#d7
+{
+    border-bottom: none;
+}
+
+#d8
+{
+    border-right: none;
+    border-bottom: none;
+}
